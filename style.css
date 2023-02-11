@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    color: Navy;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    font-size: 25px;
+    background-color: Pink;
+    padding: 20px;
+    margin: 10px;
+}
+.image{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px;
+    background-color: Pink;
+    height: 500px;
+    margin:auto;
+}
+.image img{
+    height: 100%;
+    width: auto;
+}
+.MyName{
+    position: absolute;
+    right: 10px;
+    bottom: 300px;
+    display: flex;
+    padding-right: 50px;
+    font-size: 60px;
+    justify-content: end;
+    font-weight: bolder;
+    background-color: rgba(255, 192, 203, 0.5);
+}
+.bio{
+    position: absolute;
+    right: 150px;
+    bottom: 135px;
+    font-size: 21px;
+    display: flex;
+    justify-content: end;
+}
+.DOB{
+    position: absolute;
+    font-size: 30px;
+    padding: 30px;
+    background-color: Pink;
+    display: flex;
+    justify-content: center;
+
+}
+#education{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10vh;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.college{
+    font-weight: bold;
+    font-size: 25px;
+}
+.edu1{
+    font-weight: 25px;
+    margin: 10vh;
+}
+#hobbies{
+    display: flex;
+    justify-content: center;
+} 
+.hoby{
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+    justify-content: center;
+}
+.hobby{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.awards{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 25px;
+}
+.award{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.certifications{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 25px;
+}
+.certification{
+    font-weight: bold;
+    font-size: 20px;   
+}
+.hob{
+    margin: 30px;
+}
